@@ -7,7 +7,6 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --main-text-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
@@ -16,6 +15,11 @@ html {
   --footer-contacts: rgba(255, 255, 255, 0.6);
   --main-title: #ffff;
   --icon-color: #afb1b8;
+
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  --transformation: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
   margin: 0;
@@ -67,7 +71,7 @@ a {
 
 .container__link {
   margin-right: 91px;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   color: black;
   font-weight: 700;
   font-size: 26px;
@@ -87,7 +91,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transformation);
 }
 .navigation__link--current::after {
   position: absolute;

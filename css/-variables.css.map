@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EAEJ,iBAAiB,CAAA,6BAAC;EAClB,iBAAiB,CAAA,QAAC;EAClB,YAAY,CAAA,QAAC;EACb,cAAc,CAAA,QAAC;EACf,kBAAkB,CAAA,QAAC;EACnB,cAAc,CAAA,QAAC;EACf,iBAAiB,CAAA,yBAAC;EAClB,YAAY,CAAA,MAAC;EACb,YAAY,CAAA,QAAC;EAGb,WAAW,CAAA,mBAAC;EACZ,gBAAgB,CAAA,oBAAC;CAClB",
+    "sources": [
+        "../.vscode/sass/utils/-variables.scss"
+    ],
+    "names": [],
+    "file": "-variables.css"
+}

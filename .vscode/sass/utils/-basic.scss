@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  color: $main-text-color;
+  font-family: var(--secondary-font);
+  letter-spacing: 0.03em;
+}
+img {
+  display: block;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
