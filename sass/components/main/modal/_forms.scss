@@ -98,10 +98,6 @@
   line-height: 1.71;
   margin-bottom: 30px;
   color: var(--text-color);
-
-  &:focus + .form-box__input {
-    border-color: red;
-  }
 }
 .form-label_input {
   -webkit-appearance: none;
